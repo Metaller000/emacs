@@ -1,0 +1,27 @@
+;; Object cedet-1.1/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "cedet-1.1/"
+  :tables
+  (list
+    (semanticdb-table "test.cpp"
+      :major-mode 'c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [30 48])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [59 68])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [69 82]))                  
+                :type "int")
+                nil [50 313]))          
+      :file "test.cpp"
+      :pointmax 314
+      :fsize 313
+      :lastmodtime '(22044 10 78688 620000)
+      :unmatched-syntax nil))
+  :file "!home!metaller!Загрузки!cedet-1.1!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
